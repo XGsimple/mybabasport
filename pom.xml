@@ -16,7 +16,7 @@
        		<path>/</path>
       		<server>tomcat</server>
       		<username>tomcat</username>
-      		<password>123456</password>
+      		<password>xx5320980</password>
       	</configuration>
       </plugin>
     </plugins>
@@ -281,7 +281,15 @@
 		<dependency>
 			<groupId>cn.itcast</groupId>
 			<artifactId>page</artifactId>
-			<version>1.0</version>
 		</dependency>
   </dependencies>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>cn.itcast</groupId>
+  			<artifactId>page</artifactId>
+  			<version>1.0</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>
